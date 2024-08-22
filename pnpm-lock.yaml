@@ -1732,6 +1732,7 @@ snapshots:
 
   nanoid@3.3.7: {}
 
+<<<<<<< HEAD
   next-auth@5.0.0-beta.19(next@15.0.0-canary.56(react-dom@19.0.0-rc-f38c22b244-20240704(react@19.0.0-rc-f38c22b244-20240704))(react@19.0.0-rc-f38c22b244-20240704))(react@19.0.0-rc-f38c22b244-20240704):
     dependencies:
       '@auth/core': 0.32.0
@@ -1739,6 +1740,15 @@ snapshots:
       react: 19.0.0-rc-f38c22b244-20240704
 
   next@15.0.0-canary.56(react-dom@19.0.0-rc-f38c22b244-20240704(react@19.0.0-rc-f38c22b244-20240704))(react@19.0.0-rc-f38c22b244-20240704):
+=======
+  next-auth@5.0.0-beta.19(next@15.0.0-canary.56)(react@19.0.0-rc-f38c22b244-20240704):
+    dependencies:
+      '@auth/core': 0.32.0
+      next: 15.0.0-canary.56(react-dom@19.0.0-rc-f38c22b244-20240704)(react@19.0.0-rc-f38c22b244-20240704)
+      react: 19.0.0-rc-f38c22b244-20240704
+
+  next@15.0.0-canary.56(react-dom@19.0.0-rc-f38c22b244-20240704)(react@19.0.0-rc-f38c22b244-20240704):
+>>>>>>> d90a5d93f5d40a028b5703de5c448a37a44c1c10
     dependencies:
       '@next/env': 15.0.0-canary.56
       '@swc/helpers': 0.5.11
@@ -1845,9 +1855,14 @@ snapshots:
   postcss-load-config@4.0.2(postcss@8.4.38):
     dependencies:
       lilconfig: 3.1.1
+<<<<<<< HEAD
       yaml: 2.4.3
     optionalDependencies:
       postcss: 8.4.38
+=======
+      postcss: 8.4.38
+      yaml: 2.4.3
+>>>>>>> d90a5d93f5d40a028b5703de5c448a37a44c1c10
 
   postcss-nested@6.0.1(postcss@8.4.38):
     dependencies:
@@ -2132,7 +2147,11 @@ snapshots:
   wrappy@1.0.2: {}
 
   ws@8.14.2(bufferutil@4.0.8)(utf-8-validate@6.0.3):
+<<<<<<< HEAD
     optionalDependencies:
+=======
+    dependencies:
+>>>>>>> d90a5d93f5d40a028b5703de5c448a37a44c1c10
       bufferutil: 4.0.8
       utf-8-validate: 6.0.3
 

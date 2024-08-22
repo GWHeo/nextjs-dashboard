@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import Pagination from '@/app/ui/invoices/pagination';
 import Search from '@/app/ui/search';
 import Table from '@/app/ui/invoices/table';
@@ -36,5 +37,10 @@ export default async function Page({
             <Pagination totalPages={totalPages} />
         </div>
     </div>
+=======
+export default function Page() {
+    return (
+        <p>Invoices Page</p>
+>>>>>>> d90a5d93f5d40a028b5703de5c448a37a44c1c10
     );
 }
